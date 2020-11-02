@@ -1,0 +1,20 @@
+# Algorthim of Binary Search:
+Step 1: Start
+Step 2:Intalize  array  a[n];
+Step 3:sort array using any techcnic
+step 4: accept number to be search from user
+Step 5:set  low=0,high=n-1
+Step 6:set mid=(low+high)/2
+Step 7:compare a[mid] with number.			
+Step 8:if a[mid] ==num then
+	display number found 
+	go to step 11
+             else if a[mid]>num then
+	 set high=mid-1
+	   else
+	       set low=mid+1;
+Step 9:repeat step 6 to 8 until low<=high
+step 10:if low >high	 then
+	display number not  found 
+step 11:stop 
+	
