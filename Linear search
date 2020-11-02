@@ -1,0 +1,19 @@
+#Algorthim for Linear Search
+Step1:Start
+
+Step2 :Intalization Array a[n]
+
+step3:accept number from user to be search
+
+step 4:set counter i=0;		
+
+step 5:compare a[i] with number
+step 6:if a[i]==num then 
+	display number found at i location
+	go to step 9
+            else 
+	i=i+1;
+step7 :repeate step 5 and 6 until i<n
+step 8:if i==n  then 
+	display number is not found
+step 9:stop
