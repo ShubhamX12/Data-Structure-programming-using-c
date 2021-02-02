@@ -1,10 +1,8 @@
 
-
 #include<stdio.h>
 #include<conio.h>
 #include<string.h>
 #include<dos.h>
-//#define max 50
 void refersh();
 int  top=-1;
 char a[7];
@@ -26,10 +24,10 @@ void main()
 void refersh()
 {
 
-     // char str[]=" ";
+
       char str1[30];
       int i,l;
-//    char *s="";
+
       clrscr();
       printf("\033[0;34m");
     printf("\n****************************************************************************");
